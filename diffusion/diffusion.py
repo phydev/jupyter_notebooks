@@ -2,7 +2,7 @@ import numpy as np
 
 def check_boundary(x, l):
     """
-     this function apply periodic boundary conditions for x.
+     applies periodic boundary conditions for x.
 
      x (real) : verify if x is between the simulation domain
      l (real) : boundary of the simulation box
@@ -15,7 +15,7 @@ def check_boundary(x, l):
 
 def laplacian(f, i, l):
     """
-        this function calculates the laplacian of f[i]
+        calculates the laplacian of f[i]
 
     f (array) : array containing the function values we are integrating
     i (integer) : position
@@ -31,7 +31,7 @@ def laplacian(f, i, l):
 
 def init(l):
     """
-        this function takes the length l and returns an
+        takes the length l and returns an
         array A with a gaussian distribution
 
     l (integer)
