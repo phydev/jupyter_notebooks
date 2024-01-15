@@ -1,2 +1,2 @@
 # exclude jupyter notebooks from linguist analysis
-diffusion/*.pynb linguist-generated=true
+diffusion/*.ipynb linguist-generated=true
